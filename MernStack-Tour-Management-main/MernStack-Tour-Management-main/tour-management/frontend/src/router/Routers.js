@@ -9,6 +9,7 @@ import TourDetails from './../pages/TourDetails';
 import Login from './../pages/Login';
 import Register from './../pages/Register';
 import SearchResultList from './../pages/SearchResultList';
+
 const Routers = () => {
   return (
     <Routes>
