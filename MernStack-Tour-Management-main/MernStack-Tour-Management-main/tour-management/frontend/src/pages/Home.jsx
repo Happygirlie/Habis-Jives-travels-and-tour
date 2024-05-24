@@ -1,20 +1,21 @@
-import React from 'react'
-import '../styles/home.css'
+import React from "react";
+import "../styles/home.css";
 
-import { Container, Row,Col } from 'reactstrap';
-import heroImg from '../assets/images/hero-img01.jpg'
-import heroImg02 from '../assets/images/hero-img02.jpg'
-import heroVideo from '../assets/images/hero-video.mp4'
-import worldImg from '../assets/images/world.png'
-import Subtitle from '../shared/Subtitle';
+import { Container, Row,Col } from "reactstrap";
+import heroImg from "../assets/images/hero-img01.jpg";
+import heroImg02 from "../assets/images/hero-img02.jpg";
+import heroVideo from "../assets/images/hero-video.mp4";
+import worldImg from "../assets/images/world.png";
+import Subtitle from "../shared/Subtitle";
 
-import SearchBar from '../shared/SearchBar';
-import ServiceList from '../services/ServiceList';
+import SearchBar from "../shared/SearchBar";
+import ServiceList from "../services/ServiceList";
+import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 
 const Home = () => {
-  return <>
-  
-  {/* ============= hero section start =========== */}
+  return (
+    <>
+{/* ============= hero section start =========== */}
   <section>
     <Container>
       <Row>
@@ -65,11 +66,23 @@ const Home = () => {
         <ServiceList />
       </Row>
     </Container>
-    </section> 
+  </section>
 
-  </>
-    
-  
-}
+  {/* ========== featured tour section start ======== */}
+  <section>
+    <Container>
+      <Row>
+        <Col lg="12" className="mb-5">
+          <Subtitle subtitle={"Explorer"} />
+          <h2 className="featured__tour-tite">Our featured tour</h2>
+        </Col>
+        <FeaturedTourList />
+      </Row>
+    </Container>
+    </section> 
+  {/* ========== featured tour section end ======== */}             
+    </>
+  );
+};
 
 export default Home
