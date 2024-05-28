@@ -33,7 +33,7 @@ const Home = () => {
             <h1>Travelling opens the door to creating <span
             className="highlight">memories</span></h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Hello ipsum dolor sit amet consectetur adipisicing elit.
                Explicabo id vero delectus voluptatibus! Rerum
                 vero ab, excepturi, sunt facilis laudantium
                  odit odio corrupti dolorem, molestias beatae eum ex eaque explicabo.
