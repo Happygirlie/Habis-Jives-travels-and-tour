@@ -33,10 +33,10 @@ const Home = () => {
             <h1>Travelling opens the door to creating <span
             className="highlight">memories</span></h1>
             <p>
-              Hello ipsum dolor sit amet consectetur adipisicing elit.
-               Explicabo id vero delectus voluptatibus! Rerum
-                vero ab, excepturi, sunt facilis laudantium
-                 odit odio corrupti dolorem, molestias beatae eum ex eaque explicabo.
+             Welcome to Habis Jives travels and tour, your one-stop destination 
+              for planning and booking unforgettable travel experiences.
+               Whether you are a seasoned traveler or planning your first adventure,
+                we are here to make your journey seamless and exciting.
             </p>
           </div>
         </Col>
@@ -96,9 +96,9 @@ const Home = () => {
             <Subtitle subtitle={"Experience"}/>
 
             <h2>With our all experience <br /> we will serve you</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p>From exotic beaches to vibrant cities to serene mountains and historical landmarks,
                <br />
-               Possimus, Nemo odio perferendis tenetur enim sed!
+               explore our curated travel experiences and find your next destination.
             </p>
           </div>
 
